@@ -1,0 +1,29 @@
+
+excellent ressources:
+https://www.youtube.com/watch?v=HVsySz-h9r4&t=402s
+https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
+
+1 you need to locate the folder you want to sync.
+In order to do so:
+
+$ git init
+
+2 you need to add files to local repo
+
+$ git add .
+
+3 commit files to be pushed
+ 
+$ git commit -m "details about the commit to be included here"
+
+4 Define origin of remote repo
+
+$git remote add origin https://github.com/jeanjacquesrepository/test.git
+
+5 Verify remote url
+
+git remote -v
+
+6 Push changes in local repo to github
+
+git push -u origin master
